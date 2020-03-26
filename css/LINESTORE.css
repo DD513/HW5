@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,arial,sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #313131;
+}
+header .headerL .logo {
+    margin: 15px 20px;
+    vertical-align: middle;
+}
+header .headerL .search {
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #272727;
+    border: 0px;
+    color: #737373;
+    padding: 5px 10px;
+}
+header .headerL .big2 {
+    margin-left: -50px;
+    vertical-align: middle;
+}
+.headerR .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px;
+    font-size: 14px;
+}
+header .headerR .navbar .love {
+    vertical-align: baseline;
+}
+header .headerR .navbar a{
+    color: #737373;
+    margin: 20px 5px;
+}
+header .headerR .navbar hr {
+    border: 0.5px solid #737373;
+    height: 15px;
+    margin: 0px 5px;
+}
+.navbar li a:hover {
+    text-decoration:underline #737373;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content .list{
+    border: 1px solid #bec0c7;
+    width: 16%;
+    left: 0px;
+    padding: 20px 25px;
+}
+.list {
+    width: 15%;
+    float: left;
+}
+.list .navbar1 a {
+
+    color: black;
+    font-weight:bold;
+    font-size: 14px;
+    line-height: 43px;
+}
+.list .navbar1 .l1 {
+    font-size: 12px;
+    color: #bec0c7;
+}
+.list .navbar1 hr {
+    margin: 15px 0px;
+    border: 0.5px solid #F0F0F0;
+}
+.list .navbar1 a:hover {
+    color: #00b84f;
+}
+.list .navbar1 .l1:hover {
+    color: #bec0c7;
+    cursor: text;
+}
+.list .navbar1 .cash {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.list .navbar1 .l2 {
+    font-size: 13px;
+    color: #737373;
+}
+.list .navbar1 .l2:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+.list .navbar1 .l3 {
+    padding: 5px 0px;
+}
+.list .navbar1 .l3 a {
+    font-size: 10px;
+    color: #a3a3a3;
+    line-height: normal;
+    font-weight: normal;
+}
+.list .navbar1 .l3:hover {
+    color: #a3a3a3;
+    text-decoration: underline;
+}
+.content .Texture {
+    width: 85%;
+}
+.Texture .block .blocktop {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1041px;
+}
+.Texture .block .blocktop .a1 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 30px;
+}
+.Texture .block .blocktop .a2 {
+    color: #bec0c7;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+.Texture .block .blockbuttom hr {
+    margin: 40px 0px;
+    border: 0.5px solid #F0F0F0;
+}
+.Texture .block .blockbuttom .img-texture {
+    padding: 0px 20px;
+}
+.block2 {
+    max-width: 1041px ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.block2 .blcok2in {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+.block2in .blocktop {
+    display: flex;
+    justify-content: space-between;
+}
+.Texture .block2 .block2in .blocktop .a1 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.Texture .block2 .block2in .blocktop .a2 {
+    color: #bec0c7;
+    font-size: 12px;
+    padding: 20px 10px;
+}
+.blockbottom2 .img-texture2 {
+    padding-right: 30px;
+}
+.Texture .block2 .block2in .blockbottom2 hr {
+    margin: 40px 0px;
+    border: 0.5px solid #F0F0F0;
+}
+.icon {
+    margin-top: -40px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #f7f7fc;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerL {
+    width: 50%;
+}
+footer .footerL ul li {
+    display:inline;
+}
+footer .footerL a {
+    color: #737373;
+    font-size: 12px;
+    display:inline;
+    margin-right: 10px;
+}
+footer .footerL ul li:hover {
+    text-decoration: underline;
+}
+.navbar3 .border {
+    border-right: 0.5px solid #bec0c7;
+    margin: 0px 5px;
+}
+footer .footerL .a4:hover {
+    cursor: text;
+}
+footer .footerR {
+    float: right;
+    padding-right: 20px;
+}
+select {
+    width: 150px;
+    padding: 5px;
+}

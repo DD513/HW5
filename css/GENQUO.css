@@ -1,0 +1,163 @@
+* {
+    font-family: Roboto,Verdana,Geneva,Tahoma,"Heiti TC","Microsoft JhengHei",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.top-center  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.top-center .GENQUO-logo {
+    margin-top: 30px;
+    width: 140px;
+}
+.top-right {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: -30px;
+    margin-left: -5%;
+}
+.top-right .search {
+    width: 130px;
+    border: 0px;
+    border-bottom: 0.5px solid #282929;
+}
+.top-center  a {
+    color: #282929;
+    font-size: 6px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.navbar li:hover {
+    background-color: #dfdfdf;
+}
+.navbar li .text::after {
+    content: "WOMEN";
+}
+.navbar li:hover .text::after {
+    content: "女裝";
+}
+.navbar li .text1::after {
+    content: "MEN";
+}
+.navbar li:hover .text1::after {
+    content: "男裝";
+}
+.navbar li .text2::after {
+    content: "KIDS";
+}
+.navbar li:hover .text2::after {
+    content: "孩童";
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav .navbar{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.navbar li a {
+    color: #282929;
+    font-size: 6px;
+    padding: 5px 20px;
+}
+.footer-l .navbar1 li a:hover {
+    color: white;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.top-right a {
+    color: #282929;
+    font-size: 6px;
+    margin-bottom: 20px;
+}
+.top-right a img {
+    vertical-align: middle;
+    width: 35px;
+}
+.content .img{
+    width: 100%;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #697259;
+    bottom: 0px;
+}
+.footer-l .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    width: 100%;
+    padding-left: 10px;
+}
+.footer-l .navbar1 li a{
+    color: #dfdfdf;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.footer-l p {
+    color: #dfdfdf;
+    font-size: 10px;
+    margin: 5px 30px;
+}
+.footer-l .p1 {
+    font-size: 20px;
+    margin: 10px 30px;
+}
+.footer-l .p2 {
+    margin-bottom: 35px;
+}
+.footer-r p {
+    color: #dfdfdf;
+    font-size: 10px;
+    margin: 5px 50px;
+}
+.footer-r {
+    width: 40%;
+    margin: 35px 0px 35px 0px;
+}
+.footer-r .p3 {
+    font-size: 14px;
+    margin-left: 0px;
+}
+.footer-r .email {
+    width: 320px;
+    height: 40px;
+    background-color: #697259;
+    border: 0.5px solid #dfdfdf;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.footer-r .button {
+    width: 130px;
+    height: 40px;
+    background-color: #dfdfdf;
+    border: 0px;
+    vertical-align: middle;
+}
+.footer-r .p4 {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
